@@ -1,8 +1,9 @@
 bułki 3
 masło 1
 mąka 3
-ser 5
-chleb 2
+ser 7
+chleb 2+1
 mleko 6
 cukier1
 sól 1
+pieprz 1
