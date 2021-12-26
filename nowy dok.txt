@@ -1,0 +1,4 @@
+mieso mielne 3
+kurczak 1
+szynka 4
+kiełbasa 4

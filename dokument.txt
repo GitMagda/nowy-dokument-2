@@ -1,0 +1,8 @@
+bułki 3
+masło 1
+mąka 3
+ser 5
+chleb 2
+mleko 6
+cukier1
+sól 1
