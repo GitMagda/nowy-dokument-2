@@ -1,0 +1,5 @@
+[user]
+	email = magdalenarybak@wp.pl
+	name = Magda
+[credential "https://gitlab.portal.futurecollars.com"]
+	provider = generic
