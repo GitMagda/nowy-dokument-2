@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #555;
+  font-family: Open Sans;
+  font-size: 16px;
+  position: relative;
+  height: 100vh;
+  font-weight: 400;
+}
+#Logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+#income-and-expences {
+  display: flex;
+  width: 100%;
+}
+.income-btn {
+  color: blue;
+}
+/* .edit-income-btn {
+  margin-left: 50px;
+} */
+#global-budget {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  border: 2px gray solid;
+  height: 50px;
+  width: 200px;
+}
+.main {
+  width: 50%;
+  display: flex;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Budżet Domowy Projekt</title>
+  <link rel="stylesheet" href="index.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</head>
+
+<body>
+  <div id="Logo">
+    <img src="313062.png" height="100px" width="100px">
+  </div>
+
+  <div id="global-budget">Pozostało:</div>
+  </div>
+
+<div class="main">
+  <div id=incomes-and-expences>
+    <div class=div-input-and-list>
+      <div class="div-input">
+       
+        <form id="add-income">
+          <fieldset>
+            <legend>Przychody</legend>
+            <input type="text" name="name" placeholder="Nazwa przychodu" maxlength="30" onclick="this.value=null" />
+            <input type="number" name="amount" placeholder="Kwota" maxlength="30" onclick="this.value=null" />
+            <button type="submit" class="btn">Dodaj</button>
+
+     
+      <ul id="incomes"></ul>
+     
+      <div id="sum-of-incomes"></div>
+
+   
+    </fieldset>
+        </form>
+    </div>
+    </div>
+    
+    <div class=div-expence-and-list>
+      <div class="div-expence">
+     
+        <form id="add-expense">
+          <fieldset>
+            <legend>Wydatki</legend>
+          <input type="text" name="name" placeholder="Nazwa wydatków" maxlength="30" onclick="this.value=null" />
+          <input type="number" name="amount" placeholder="Kwota" maxlength="30" onclick="this.value=null" />
+          <button type="submit" class="btn">Dodaj</button>
+          <ul id="expenses"></ul>
+         
+          <div id="sum-of-expenses">0</div>
+    
+        </div>
+        </fieldset>
+                </form>
+      </div>
+      <ul id="expenses"></ul>
+    </div>
+  </div>
+
+</div>
+
+  <script src="index.js"> </script>
+</body>
+
+</html>
