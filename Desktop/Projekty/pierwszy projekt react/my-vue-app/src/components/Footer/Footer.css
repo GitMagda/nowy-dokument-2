@@ -1,0 +1,27 @@
+footer {
+  height: 50px;
+  background-color: #4e4e4e;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+.container-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* padding: 10px; */
+  line-height: 50px;
+  text-align: center;
+}
+.footer-icon {
+  display: flex;
+}
+.koniec {
+  display: flex;
+  justify-content: space-between;
+}
+.fab {
+  padding-right: 20px;
+}
+@media screen and (max-width: 450px) {
+}

@@ -1,0 +1,38 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.container {
+  margin: 0 auto;
+  width: 94%;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 720px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    width: 960px;
+  }
+}

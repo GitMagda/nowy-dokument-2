@@ -1,0 +1,68 @@
+section {
+  list-style-type: none;
+  padding: 0 90px 0 90px;
+}
+.name {
+  padding: 50px 0;
+  color: #152d41;
+}
+h3 {
+  padding: 20px 0;
+  padding-left: 40px;
+  color: #000000;
+}
+p {
+  color: #000000;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.person1 {
+  margin: 20px;
+}
+.person1 {
+  width: 197px;
+  height: 197px;
+  border-radius: 50%;
+  background-color: yellow;
+  /* background-image: url("https://i.picsum.photos/id/1074/5472/3648.jpg?hmac=w-Fbv9bl0KpEUgZugbsiGk3Y2-LGAuiLZOYsRk0zo4A"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  aspect-ratio: 1/1;
+}
+/* .person2 {
+  width: 197px;
+  height: 197px;
+  border-radius: 50%;
+  background-color: yellow;
+  /* background-image: url("https://i.picsum.photos/id/433/4752/3168.jpg?hmac=Og-twcmaH_j-JNExl5FsJk1pFA7o3-F0qeOblQiJm4s"); */
+  /* background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  aspect-ratio: 1/1; */ */
+}
+li:nth-of-type(odd) {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+li:nth-of-type(even) {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+ul.specjaliści {
+  padding-bottom: 60px;
+}
+h3.person {
+  text-align: right;
+  margin-right: 50px;
+}
